@@ -55,7 +55,7 @@
 
   <text x="350" y="118"><tspan class="label">OS: </tspan><tspan class="value">Linux, Windows</tspan></text>
   <text x="350" y="133"><tspan class="label">Frameworks: </tspan><tspan class="value">Spring Boot, Laravel, Flask</tspan></text>
-  <text x="350" y="148"><tspan class="label">Bade de datos: </tspan><tspan class="value">MySQL, SQL Server, Supabase</tspan></text>
+  <text x="350" y="148"><tspan class="label">Base de datos: </tspan><tspan class="value">MySQL, SQL Server, Supabase</tspan></text>
   <text x="350" y="163"><tspan class="label">Lenguajes: </tspan><tspan class="value">Java, PHP, Visual Basic, Python, Kotlin</tspan></text>
   <text x="350" y="178"><tspan class="label">Herramientas: </tspan><tspan class="value">Postman, Figma, Github, Ngrok, Jetbrains IDEs</tspan></text>
 
