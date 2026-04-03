@@ -1,23 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 700" width="860" height="700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400">
   <defs>
     <style>
       text { font-family: 'Courier New', Courier, monospace; }
       .bg      { fill: #fff; }
+      .bar     { fill: #252a3d; }
+      .dot-r   { fill: #ff5f57; }
+      .dot-y   { fill: #ffbd2e; }
+      .dot-g   { fill: #28c840; }
       .prompt  { fill: #1f2328; font-size: 13px; }
       .ascii   { fill: #1f2328; font-size: 11px; white-space: pre;}
       .user    { fill: #0969da; font-size: 13px; font-weight: bold; }
       .sep     { fill: #0969da; font-size: 13px; }
       .label   { fill: #1f2328; font-size: 12.5px; font-weight: bold; }
       .value   { fill: #59636e; font-size: 12.5px; }
+      .section { fill: #0969da; font-size: 12.5px; font-weight: bold; }
     </style>
   </defs>
 
-  <rect width="860" height="700" rx="10" ry="10" class="bg"/>
+  <!-- Background -->
+  <rect width="860" height="400" rx="10" ry="10" class="bg"/>
 
-  <text x="20" y="62" class="prompt">$ mato5 --render-badges</text>
+  <!-- Prompt -->
+  <text x="20" y="62" class="prompt">$ mato5</text>
 
+  <!-- ASCII Art lines -->
   <text x="20"  y="75"  class="ascii">                              __</text>
-  <text x="20"  y="90"  class="ascii">                            .d$$b</text>
+  <text x="20"  y="90" class="ascii">                            .d$$b</text>
   <text x="20"  y="105" class="ascii">                          .' TO$;\</text>
   <text x="20"  y="120" class="ascii">                         /  : TP._;</text>
   <text x="20"  y="135" class="ascii">                        / _.;  :Tb|</text>
@@ -38,29 +46,28 @@
   <text x="20"  y="360" class="ascii">         /  ;.-" ..--""        -'</text>
   <text x="20"  y="375" class="ascii">          :..--""--.-"</text>
 
-  <g transform="translate(350, 88)">
-    <text y="0" class="user">zahid210</text>
-    <text y="15" class="sep">----------</text>
-    <text y="35"><tspan class="label">OS: </tspan><tspan class="value">Linux, Windows</tspan></text>
-    <text y="55"><tspan class="label">Frameworks: </tspan><tspan class="value">Spring Boot, Laravel, Flask</tspan></text>
-    <text y="75"><tspan class="label">BD: </tspan><tspan class="value">MySQL, SQL Server, Supabase</tspan></text>
-    <text y="95"><tspan class="label">Herramientas: </tspan><tspan class="value">Postman, Figma, Github, Docker</tspan></text>
-    
-    <text y="135"><tspan class="label">Email: </tspan><tspan class="value">zahidmatos210@gmail.com</tspan></text>
-    <text y="155"><tspan class="label">Discord: </tspan><tspan class="value">yazidmc.</tspan></text>
-    
-    <text y="195" class="label">eps3.7: <tspan class="value">dont-delete-me.ko</tspan></text>
-  </g>
 
-  <g transform="translate(20, 430)">
-    <image x="0"   y="0" width="90"  href="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"/>
-    <image x="100" y="0" width="85"  href="https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&amp;logo=php&amp;logoColor=white"/>
-    <image x="195" y="0" width="115" href="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white"/>
-    <image x="320" y="0" width="110" href="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white"/>
-    
-    <image x="0"   y="40" width="140" href="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&amp;logo=spring-boot&amp;logoColor=white"/>
-    <image x="150" y="40" width="110" href="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&amp;logo=laravel&amp;logoColor=white"/>
-    <image x="270" y="40" width="100" href="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white"/>
-    <image x="380" y="40" width="110" href="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white"/>
-  </g>
+
+
+  <!-- User info -->
+  <text x="350" y="88"  class="user">zahid210</text>
+  <text x="350" y="103" class="sep">----------</text>
+
+  <text x="350" y="118"><tspan class="label">OS: </tspan><tspan class="value">Linux, Windows</tspan></text>
+  <text x="350" y="133"><tspan class="label">Frameworks: </tspan><tspan class="value">Spring Boot, Laravel, Flask</tspan></text>
+  <text x="350" y="148"><tspan class="label">BaSe de datos: </tspan><tspan class="value">MySQL, SQL Server, Supabase</tspan></text>
+  <text x="350" y="163"><tspan class="label">Lenguajes: </tspan><tspan class="value">Java, PHP, Visual Basic, Python, Kotlin</tspan></text>
+  <text x="350" y="178"><tspan class="label">Herramientas: </tspan><tspan class="value">Postman, Figma, Github, Ngrok, Jetbrains IDEs</tspan></text>
+
+  <!-- Contacts -->
+  <text x="350" y="225" class="section">contacto</text>
+  <text x="350" y="240" class="sep">--------</text>
+  <text x="350" y="255"><tspan class="label">Email: </tspan><tspan class="value">zahidmatos210@gmail.com</tspan></text>
+  <text x="350" y="270"><tspan class="label">Discord: </tspan><tspan class="value">yazidmc.</tspan></text>
+  <text x="350" y="285"><tspan class="label">Instagram: </tspan><tspan class="value">yazidmatos</tspan></text>
+
+  <!-- Others -->
+  <text x="350" y="332" class="section">otros</text>
+  <text x="350" y="347" class="sep">--------</text>
+  <text x="350" y="362"><tspan class="label">eps3.7: </tspan><tspan class="value">dont-delete-me.ko</tspan></text>
 </svg>
