@@ -1,8 +1,6 @@
 ```
-$ celefetch
-```
+$ mato5
 
-```
         '''                                     cele@italy
       ' ,'      ,:cc;'                          ----------
     ';;;'    'l0NWWKl'                          Uptime: 18 years
