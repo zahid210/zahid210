@@ -21,7 +21,7 @@
   <rect width="860" height="400" rx="10" ry="10" class="bg"/>
 
   <!-- Prompt -->
-  <text x="20" y="35" class="prompt">$ mato5</text>
+  <text x="20" y="62" class="prompt">$ mato5</text>
 
   <!-- ASCII Art lines -->
   <text x="20"  y="75"  class="ascii">                              __</text>
