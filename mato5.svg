@@ -2,7 +2,7 @@
   <defs>
     <style>
       text { font-family: 'Courier New', Courier, monospace; }
-      .bg      { fill: #c5c8d4; }
+      .bg      { fill: #030c2e; }
       .bar     { fill: #252a3d; }
       .dot-r   { fill: #ff5f57; }
       .dot-y   { fill: #ffbd2e; }
