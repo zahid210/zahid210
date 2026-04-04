@@ -51,7 +51,7 @@
 
   <!-- User info -->
   <text x="350" y="88"  class="user">zahid210</text>
-  <text x="350" y="103" class="sep">----------</text>
+  <text x="350" y="103" class="sep">--------</text>
 
   <text x="350" y="118"><tspan class="label">OS: </tspan><tspan class="value">Linux, Windows</tspan></text>
   <text x="350" y="133"><tspan class="label">Frameworks: </tspan><tspan class="value">Spring Boot, Laravel, Flask</tspan></text>
