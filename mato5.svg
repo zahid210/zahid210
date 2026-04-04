@@ -61,13 +61,13 @@
 
   <!-- Contacts -->
   <text x="350" y="225" class="section">contacto</text>
-  <text x="350" y="240" class="sep">--------</text>
+  <text x="350" y="240" class="sep">----------</text>
   <text x="350" y="255"><tspan class="label">Email: </tspan><tspan class="value">zahidmatos210@gmail.com</tspan></text>
   <text x="350" y="270"><tspan class="label">Discord: </tspan><tspan class="value">yazidmc.</tspan></text>
   <text x="350" y="285"><tspan class="label">Instagram: </tspan><tspan class="value">yazidmatos</tspan></text>
 
   <!-- Others -->
   <text x="350" y="332" class="section">otros</text>
-  <text x="350" y="347" class="sep">--------</text>
+  <text x="350" y="347" class="sep">----------</text>
   <text x="350" y="362"><tspan class="label">eps3.7: </tspan><tspan class="value">dont-delete-me.ko</tspan></text>
 </svg>
